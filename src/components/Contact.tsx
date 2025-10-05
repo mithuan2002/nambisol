@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Mail, Phone, MapPin } from "lucide-react";
 
@@ -41,15 +40,6 @@ const Contact = () => {
                 <h3 className="font-semibold text-card-foreground mb-1">Location</h3>
                 <p className="text-muted-foreground">Tiruppur, India</p>
               </div>
-            </div>
-
-            <div className="text-center pt-8 border-t border-border">
-              <Button 
-                size="lg"
-                className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 py-6 rounded-full shadow-md hover:shadow-lg transition-all duration-300"
-              >
-                Schedule a Consultation
-              </Button>
             </div>
           </Card>
         </div>
