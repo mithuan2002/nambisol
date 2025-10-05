@@ -12,7 +12,7 @@ const Hero = () => {
       <div 
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: `linear-gradient(to bottom, hsl(var(--primary) / 0.95), hsl(var(--primary) / 0.98)), url(${heroBg})`,
+          backgroundImage: `linear-gradient(to bottom, hsl(var(--background) / 0.92), hsl(var(--background) / 0.95)), url(${heroBg})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
@@ -20,13 +20,13 @@ const Hero = () => {
       
       <div className="container relative z-10 px-4 py-20 mx-auto text-center">
         <div className="max-w-4xl mx-auto animate-in fade-in slide-in-from-bottom-8 duration-1000">
-          <h1 className="mb-6 text-5xl font-bold tracking-tight font-heading text-primary-foreground md:text-7xl">
+          <h1 className="mb-6 text-5xl font-bold tracking-tight font-heading text-foreground md:text-7xl">
             Nambi Solutions
           </h1>
-          <p className="mb-8 text-xl text-primary-foreground/90 md:text-2xl max-w-2xl mx-auto font-medium">
+          <p className="mb-8 text-xl text-foreground/90 md:text-2xl max-w-2xl mx-auto font-medium">
             Obsessed with solving your business challenges
           </p>
-          <p className="mb-12 text-lg text-primary-foreground/80 max-w-3xl mx-auto">
+          <p className="mb-12 text-lg text-muted-foreground max-w-3xl mx-auto">
             We do business consulting, sales & marketing, and software development 
             to deliver solutions that drive real results. Your success is our mission.
           </p>
