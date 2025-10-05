@@ -23,7 +23,7 @@ const Contact = () => {
                   <Mail className="h-6 w-6 text-primary" />
                 </div>
                 <h3 className="font-semibold text-card-foreground mb-1">Email</h3>
-                <p className="text-muted-foreground">contact@nambisolutions.com</p>
+                <p className="text-muted-foreground">mithuan137@gmail.com</p>
               </div>
               
               <div className="text-center">
@@ -31,7 +31,7 @@ const Contact = () => {
                   <Phone className="h-6 w-6 text-primary" />
                 </div>
                 <h3 className="font-semibold text-card-foreground mb-1">Phone</h3>
-                <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                <p className="text-muted-foreground">+91 96002 67509</p>
               </div>
               
               <div className="text-center">
@@ -39,7 +39,7 @@ const Contact = () => {
                   <MapPin className="h-6 w-6 text-primary" />
                 </div>
                 <h3 className="font-semibold text-card-foreground mb-1">Location</h3>
-                <p className="text-muted-foreground">Serving clients globally</p>
+                <p className="text-muted-foreground">Tiruppur, India</p>
               </div>
             </div>
 
