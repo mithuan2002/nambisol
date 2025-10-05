@@ -25,7 +25,7 @@ const Services = () => {
       <div className="container px-4 mx-auto">
         <div className="text-center mb-16 animate-in fade-in slide-in-from-bottom-4 duration-700">
           <h2 className="text-4xl md:text-5xl font-bold font-heading text-foreground mb-4">
-            Our Expertise
+            What We Do?
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Comprehensive solutions across every dimension of your business
