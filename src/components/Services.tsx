@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card";
-import { Briefcase, TrendingUp, Cpu, Headphones } from "lucide-react";
+import { Briefcase, TrendingUp, Code } from "lucide-react";
 
 const services = [
   {
@@ -13,14 +13,9 @@ const services = [
     description: "Data-driven strategies to amplify your brand, generate leads, and accelerate revenue growth in competitive markets."
   },
   {
-    icon: Cpu,
-    title: "Technology Consulting",
-    description: "Expert advice on digital transformation, system architecture, and technology strategy to future-proof your business."
-  },
-  {
-    icon: Headphones,
-    title: "Technology Support",
-    description: "Reliable, responsive technical support to keep your systems running smoothly and your team productive."
+    icon: Code,
+    title: "Software Development",
+    description: "Custom software solutions, application development, and technical implementation to bring your digital vision to life with cutting-edge technology."
   }
 ];
 
@@ -37,7 +32,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {services.map((service, index) => (
             <Card 
               key={index}
