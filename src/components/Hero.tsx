@@ -27,7 +27,7 @@ const Hero = () => {
             Obsessed with solving your business challenges
           </p>
           <p className="mb-12 text-lg text-primary-foreground/80 max-w-3xl mx-auto">
-            We combine deep expertise in business consulting, sales & marketing, and technology 
+            We do business consulting, sales & marketing, and software development 
             to deliver solutions that drive real results. Your success is our mission.
           </p>
           <Button 
