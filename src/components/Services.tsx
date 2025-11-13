@@ -1,21 +1,21 @@
 import { Card } from "@/components/ui/card";
-import { Briefcase, TrendingUp, Code } from "lucide-react";
+import { Settings, Network, LineChart } from "lucide-react";
 
 const services = [
   {
-    icon: Briefcase,
-    title: "Business Consulting",
-    description: "Strategic guidance to optimize operations, drive growth, and navigate complex business challenges with confidence."
+    icon: Settings,
+    title: "Process Automation",
+    description: "Streamline manufacturing operations with PLC programming, SCADA systems, and automated control solutions that reduce costs and improve productivity."
   },
   {
-    icon: TrendingUp,
-    title: "Sales & Marketing",
-    description: "Data-driven strategies to amplify your brand, generate leads, and accelerate revenue growth in competitive markets."
+    icon: Network,
+    title: "System Integration",
+    description: "Seamlessly connect legacy equipment with modern systems. IIoT implementation, MES/ERP integration, and Industry 4.0 solutions for smart manufacturing."
   },
   {
-    icon: Code,
-    title: "Software Development",
-    description: "Custom software solutions, application development, and technical implementation to bring your digital vision to life with cutting-edge technology."
+    icon: LineChart,
+    title: "Optimization & Analytics",
+    description: "Data-driven insights and continuous improvement strategies. Real-time monitoring, predictive maintenance, and performance optimization for maximum efficiency."
   }
 ];
 
@@ -28,7 +28,7 @@ const Services = () => {
             What We Do?
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Comprehensive solutions across every dimension of your business
+            End-to-end industrial automation expertise to modernize your manufacturing operations
           </p>
         </div>
 

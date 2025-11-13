@@ -10,9 +10,9 @@ const Mission = () => {
               Our Mission
             </h2>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              We don't just provide services—we become your partner in success. 
-              Our passion for problem-solving drives us to dig deeper, think smarter, 
-              and deliver solutions that truly make a difference.
+              We empower manufacturers to achieve operational excellence through intelligent automation. 
+              Our deep expertise in industrial systems and commitment to innovation helps you stay competitive 
+              in an evolving manufacturing landscape.
             </p>
           </div>
 
@@ -22,10 +22,10 @@ const Mission = () => {
                 <Target className="h-10 w-10 text-primary" />
               </div>
               <h3 className="text-xl font-semibold font-heading mb-2 text-foreground">
-                Client-Focused
+                Industry Expertise
               </h3>
               <p className="text-muted-foreground">
-                Your goals become our goals. We measure success by your results.
+                Deep knowledge of manufacturing processes and automation technologies across diverse industries.
               </p>
             </div>
 
@@ -34,10 +34,10 @@ const Mission = () => {
                 <Heart className="h-10 w-10 text-accent" />
               </div>
               <h3 className="text-xl font-semibold font-heading mb-2 text-foreground">
-                Passionate
+                Innovation-Driven
               </h3>
               <p className="text-muted-foreground">
-                We're genuinely excited about solving complex challenges.
+                Leveraging cutting-edge technology to keep your operations at the forefront of Industry 4.0.
               </p>
             </div>
 
@@ -46,10 +46,10 @@ const Mission = () => {
                 <Zap className="h-10 w-10 text-primary" />
               </div>
               <h3 className="text-xl font-semibold font-heading mb-2 text-foreground">
-                Results-Driven
+                Efficiency-Focused
               </h3>
               <p className="text-muted-foreground">
-                We focus on delivering measurable impact and tangible outcomes.
+                Maximizing productivity and ROI through optimized automation solutions tailored to your needs.
               </p>
             </div>
           </div>

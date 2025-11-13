@@ -24,18 +24,18 @@ const Hero = () => {
             Nambi Solutions
           </h1>
           <p className="mb-8 text-xl text-foreground/90 md:text-2xl max-w-2xl mx-auto font-medium">
-            Obsessed with solving your business challenges
+            Transforming Manufacturing Through Smart Automation
           </p>
           <p className="mb-12 text-lg text-muted-foreground max-w-3xl mx-auto">
-            We do business consulting, sales & marketing, and software development 
-            to deliver solutions that drive real results. Your success is our mission.
+            Expert industrial automation consulting to optimize your operations, increase efficiency, 
+            and drive innovation in manufacturing. From process automation to Industry 4.0 integration.
           </p>
           <Button 
             size="lg" 
             onClick={scrollToContact}
             className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
           >
-            Let's Solve Together
+            Start Your Automation Journey
             <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
         </div>
