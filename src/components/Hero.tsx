@@ -24,7 +24,7 @@ const Hero = () => {
             Nambi Solutions
           </h1>
           <p className="mb-8 text-xl text-foreground/90 md:text-2xl max-w-2xl mx-auto font-medium">
-            Your Gateway to Indian Manufacturing
+            Opening India's Manufacturing Market for You
           </p>
           <p className="mb-12 text-lg text-muted-foreground max-w-3xl mx-auto">
             We're on a mission to connect early-stage automation & robotics startups with India's growing manufacturing sector 
