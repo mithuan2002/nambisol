@@ -27,8 +27,8 @@ const Hero = () => {
             Your Gateway to Indian Manufacturing
           </p>
           <p className="mb-12 text-lg text-muted-foreground max-w-3xl mx-auto">
-            We help early-stage automation & robotics startups expand into the Indian manufacturing sector 
-            and build strategic partnerships that drive growth and market success.
+            We're on a mission to connect early-stage automation & robotics startups with India's growing manufacturing sector 
+            and help build meaningful partnerships.
           </p>
           <Button 
             size="lg" 

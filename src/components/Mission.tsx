@@ -10,9 +10,8 @@ const Mission = () => {
               Our Mission
             </h2>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              We bridge the gap between innovative automation & robotics startups and India's vast manufacturing sector. 
-              Our mission is to accelerate global innovation in Indian manufacturing by creating strategic partnerships 
-              that drive mutual growth and technological advancement.
+              We're passionate about connecting innovative automation & robotics startups with India's manufacturing sector. 
+              We're building a bridge that brings fresh technology to manufacturers and new opportunities to startups—one partnership at a time.
             </p>
           </div>
 
@@ -22,10 +21,10 @@ const Mission = () => {
                 <Globe className="h-10 w-10 text-primary" />
               </div>
               <h3 className="text-xl font-semibold font-heading mb-2 text-foreground">
-                Market Knowledge
+                Fresh Energy
               </h3>
               <p className="text-muted-foreground">
-                Deep understanding of Indian manufacturing dynamics, regional nuances, and regulatory landscape.
+                We bring enthusiasm and a hands-on approach to exploring India's manufacturing landscape with you.
               </p>
             </div>
 
@@ -34,10 +33,10 @@ const Mission = () => {
                 <Users className="h-10 w-10 text-accent" />
               </div>
               <h3 className="text-xl font-semibold font-heading mb-2 text-foreground">
-                Trusted Network
+                Building Bridges
               </h3>
               <p className="text-muted-foreground">
-                Extensive connections with manufacturers, industry leaders, and decision-makers across India.
+                We're actively growing our network and making genuine connections in India's manufacturing community.
               </p>
             </div>
 
@@ -46,10 +45,10 @@ const Mission = () => {
                 <Rocket className="h-10 w-10 text-primary" />
               </div>
               <h3 className="text-xl font-semibold font-heading mb-2 text-foreground">
-                Proven Results
+                Startup Spirit
               </h3>
               <p className="text-muted-foreground">
-                Track record of successful market entries and partnerships that deliver measurable business impact.
+                As a young company ourselves, we understand the challenges startups face and we're here to grow together.
               </p>
             </div>
           </div>
