@@ -23,7 +23,7 @@ const Services = () => {
   return (
     <section className="py-24 bg-muted/30">
       <div className="container px-4 mx-auto">
-        <div className="text-center mb-16 animate-in fade-in slide-in-from-bottom-4 duration-700">
+        <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold font-heading text-foreground mb-4">
             What We Do?
           </h2>
@@ -36,8 +36,7 @@ const Services = () => {
           {services.map((service, index) => (
             <Card 
               key={index}
-              className="p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border-border bg-card animate-in fade-in slide-in-from-bottom-8 duration-700"
-              style={{ animationDelay: `${index * 100}ms` }}
+              className="p-8 hover:shadow-lg transition-shadow border-border bg-card"
             >
               <div className="mb-6 inline-flex p-4 bg-primary/10 rounded-2xl">
                 <service.icon className="h-8 w-8 text-primary" />
