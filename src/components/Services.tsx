@@ -1,21 +1,21 @@
 import { Card } from "@/components/ui/card";
-import { Settings, Network, LineChart } from "lucide-react";
+import { MapPin, Handshake, TrendingUp } from "lucide-react";
 
 const services = [
   {
-    icon: Settings,
-    title: "Process Automation",
-    description: "Streamline manufacturing operations with PLC programming, SCADA systems, and automated control solutions that reduce costs and improve productivity."
+    icon: MapPin,
+    title: "Market Entry Strategy",
+    description: "Navigate the Indian manufacturing landscape with confidence. We provide market insights, regulatory guidance, and entry strategies tailored for automation and robotics startups."
   },
   {
-    icon: Network,
-    title: "System Integration",
-    description: "Seamlessly connect legacy equipment with modern systems. IIoT implementation, MES/ERP integration, and Industry 4.0 solutions for smart manufacturing."
+    icon: Handshake,
+    title: "Partnership Development",
+    description: "Connect with the right manufacturing partners. We facilitate introductions, build relationships, and establish strategic partnerships that accelerate your market presence."
   },
   {
-    icon: LineChart,
-    title: "Optimization & Analytics",
-    description: "Data-driven insights and continuous improvement strategies. Real-time monitoring, predictive maintenance, and performance optimization for maximum efficiency."
+    icon: TrendingUp,
+    title: "Growth Advisory",
+    description: "Scale your business in India with expert guidance. From pilot projects to full-scale deployment, we help you navigate challenges and seize opportunities in the market."
   }
 ];
 
@@ -28,7 +28,7 @@ const Services = () => {
             What We Do?
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            End-to-end industrial automation expertise to modernize your manufacturing operations
+            Bridging automation & robotics startups with India's thriving manufacturing ecosystem
           </p>
         </div>
 
