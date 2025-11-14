@@ -4,18 +4,18 @@ import { MapPin, Handshake, TrendingUp } from "lucide-react";
 const services = [
   {
     icon: MapPin,
-    title: "Market Entry Strategy",
-    description: "Navigate the Indian manufacturing landscape with confidence. We provide market insights, regulatory guidance, and entry strategies tailored for automation and robotics startups."
+    title: "Market Entry Support",
+    description: "We're learning the Indian manufacturing landscape alongside you. Together, we'll explore opportunities and navigate entry strategies for your automation startup."
   },
   {
     icon: Handshake,
-    title: "Partnership Development",
-    description: "Connect with the right manufacturing partners. We facilitate introductions, build relationships, and establish strategic partnerships that accelerate your market presence."
+    title: "Partnership Building",
+    description: "Let's connect you with manufacturing partners. We're building relationships and opening doors that help get your technology in front of the right people."
   },
   {
     icon: TrendingUp,
-    title: "Growth Advisory",
-    description: "Scale your business in India with expert guidance. From pilot projects to full-scale deployment, we help you navigate challenges and seize opportunities in the market."
+    title: "Growth Support",
+    description: "Growing together in India. From initial conversations to pilot projects, we're here to support your journey and tackle challenges as they come."
   }
 ];
 
@@ -28,7 +28,7 @@ const Services = () => {
             What We Do?
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Bridging automation & robotics startups with India's thriving manufacturing ecosystem
+            Connecting automation & robotics startups with India's manufacturing opportunities
           </p>
         </div>
 
