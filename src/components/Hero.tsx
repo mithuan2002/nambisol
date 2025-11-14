@@ -19,7 +19,7 @@ const Hero = () => {
       />
       
       <div className="container relative z-10 px-4 py-20 mx-auto text-center">
-        <div className="max-w-4xl mx-auto animate-in fade-in slide-in-from-bottom-8 duration-1000">
+        <div className="max-w-4xl mx-auto">
           <h1 className="mb-6 text-5xl font-bold tracking-tight font-heading text-foreground md:text-7xl">
             Nambi Solutions
           </h1>
@@ -33,7 +33,7 @@ const Hero = () => {
           <Button 
             size="lg" 
             onClick={scrollToContact}
-            className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+            className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold text-lg px-8 py-6 rounded-full shadow-lg transition-colors"
           >
             Expand to India
             <ArrowRight className="ml-2 h-5 w-5" />
