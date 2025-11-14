@@ -1,4 +1,4 @@
-import { Target, Heart, Zap } from "lucide-react";
+import { Globe, Users, Rocket } from "lucide-react";
 
 const Mission = () => {
   return (
@@ -10,46 +10,46 @@ const Mission = () => {
               Our Mission
             </h2>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              We empower manufacturers to achieve operational excellence through intelligent automation. 
-              Our deep expertise in industrial systems and commitment to innovation helps you stay competitive 
-              in an evolving manufacturing landscape.
+              We bridge the gap between innovative automation & robotics startups and India's vast manufacturing sector. 
+              Our mission is to accelerate global innovation in Indian manufacturing by creating strategic partnerships 
+              that drive mutual growth and technological advancement.
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 mt-16">
             <div className="text-center animate-in fade-in slide-in-from-bottom-6 duration-700 delay-100">
               <div className="inline-flex p-5 bg-primary/10 rounded-full mb-4">
-                <Target className="h-10 w-10 text-primary" />
+                <Globe className="h-10 w-10 text-primary" />
               </div>
               <h3 className="text-xl font-semibold font-heading mb-2 text-foreground">
-                Industry Expertise
+                Market Knowledge
               </h3>
               <p className="text-muted-foreground">
-                Deep knowledge of manufacturing processes and automation technologies across diverse industries.
+                Deep understanding of Indian manufacturing dynamics, regional nuances, and regulatory landscape.
               </p>
             </div>
 
             <div className="text-center animate-in fade-in slide-in-from-bottom-6 duration-700 delay-200">
               <div className="inline-flex p-5 bg-accent/10 rounded-full mb-4">
-                <Heart className="h-10 w-10 text-accent" />
+                <Users className="h-10 w-10 text-accent" />
               </div>
               <h3 className="text-xl font-semibold font-heading mb-2 text-foreground">
-                Innovation-Driven
+                Trusted Network
               </h3>
               <p className="text-muted-foreground">
-                Leveraging cutting-edge technology to keep your operations at the forefront of Industry 4.0.
+                Extensive connections with manufacturers, industry leaders, and decision-makers across India.
               </p>
             </div>
 
             <div className="text-center animate-in fade-in slide-in-from-bottom-6 duration-700 delay-300">
               <div className="inline-flex p-5 bg-primary/10 rounded-full mb-4">
-                <Zap className="h-10 w-10 text-primary" />
+                <Rocket className="h-10 w-10 text-primary" />
               </div>
               <h3 className="text-xl font-semibold font-heading mb-2 text-foreground">
-                Efficiency-Focused
+                Proven Results
               </h3>
               <p className="text-muted-foreground">
-                Maximizing productivity and ROI through optimized automation solutions tailored to your needs.
+                Track record of successful market entries and partnerships that deliver measurable business impact.
               </p>
             </div>
           </div>
