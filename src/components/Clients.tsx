@@ -10,9 +10,9 @@ const clients = [
 ];
 
 const associations = [
-  { name: "SIEMA", full: "South India Engineering Manufacturers Association" },
-  { name: "TEAMA", full: "Tamil Nadu Engineering Association of Manufacturers" },
-  { name: "CIA", full: "Coimbatore Industrial Association" },
+  { name: "SIEMA", full: "The Southern India Engineering Manufacturers' Association" },
+  { name: "TEAMA", full: "Tiruppur Exporters And Manufacturing Association" },
+  { name: "CIA", full: "CHINNAVEDAMPATTI INDUSTRIAL ASOOCATION" },
 ];
 
 const Clients = () => {
@@ -77,10 +77,6 @@ const Clients = () => {
             </CardContent>
           </Card>
         </div>
-
-        <p className="text-center text-muted-foreground text-sm">
-          Leading industrial associations across industrial clusters of South India
-        </p>
       </div>
     </section>
   );
