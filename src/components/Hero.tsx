@@ -27,7 +27,7 @@ const Hero = () => {
             Opening India's Manufacturing Market for You
           </p>
           <p className="mb-12 text-lg text-muted-foreground max-w-3xl mx-auto">
-            We're on a mission to connect early-stage automation & robotics startups with India's growing manufacturing sector 
+            We're on a mission to connect promising automation & robotics startups with India's growing manufacturing sector 
             and help build meaningful partnerships.
           </p>
           <Button 
