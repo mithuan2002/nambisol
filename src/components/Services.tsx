@@ -1,21 +1,21 @@
 import { Card } from "@/components/ui/card";
-import { MapPin, Handshake, TrendingUp } from "lucide-react";
+import { Target, Megaphone, Network } from "lucide-react";
 
 const services = [
   {
-    icon: MapPin,
-    title: "Market Entry Support",
-    description: "We're learning the Indian manufacturing landscape alongside you. Together, we'll explore opportunities and navigate entry strategies for your automation startup."
+    icon: Target,
+    title: "GTM Strategy",
+    description: "We work with you to craft and execute a go-to-market strategy tailored for your B2B SaaS product—from ICP definition to channel selection and launch playbooks."
   },
   {
-    icon: Handshake,
-    title: "Partnership Building",
-    description: "Let's connect you with manufacturing partners. We're building relationships and opening doors that help get your technology in front of the right people."
+    icon: Megaphone,
+    title: "Brand Positioning",
+    description: "Stand out in a crowded market. We help you define your narrative, refine messaging, and position your brand so it resonates with the right buyers."
   },
   {
-    icon: TrendingUp,
-    title: "Growth Support",
-    description: "Growing together in India. From initial conversations to pilot projects, we're here to support your journey and tackle challenges as they come."
+    icon: Network,
+    title: "Partner Network Building",
+    description: "Growth doesn't happen alone. We help you identify, engage, and build a network of strategic partners—resellers, integrators, and ecosystem allies."
   }
 ];
 
@@ -25,10 +25,10 @@ const Services = () => {
       <div className="container px-4 mx-auto">
         <div className="text-center mb-16 animate-in fade-in slide-in-from-bottom-4 duration-700">
           <h2 className="text-4xl md:text-5xl font-bold font-heading text-foreground mb-4">
-            What We Do?
+            What We Do
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Connecting automation & robotics startups with India's manufacturing opportunities
+            Helping B2B SaaS companies go to market with confidence
           </p>
         </div>
 
