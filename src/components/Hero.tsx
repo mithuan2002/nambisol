@@ -24,18 +24,18 @@ const Hero = () => {
             Nambi Solutions
           </h1>
           <p className="mb-8 text-xl text-foreground/90 md:text-2xl max-w-2xl mx-auto font-medium">
-            Opening India's Manufacturing Market for You
+            GTM Strategy & Growth Partner for B2B SaaS Companies
           </p>
           <p className="mb-12 text-lg text-muted-foreground max-w-3xl mx-auto">
-            We're on a mission to connect promising automation & robotics startups with India's growing manufacturing sector 
-            and help build meaningful partnerships.
+            We help B2B SaaS companies implement their go-to-market strategy, sharpen brand positioning, 
+            and build a powerful partner network to accelerate growth.
           </p>
           <Button 
             size="lg" 
             onClick={scrollToContact}
             className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
           >
-            Expand to India
+            Let's Talk Growth
             <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
         </div>

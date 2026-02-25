@@ -11,7 +11,7 @@ const Contact = () => {
               Let's Start a Conversation
             </h2>
             <p className="text-xl text-muted-foreground">
-              Ready to transform your business challenges into opportunities?
+              Ready to take your B2B SaaS product to market? Let's talk.
             </p>
           </div>
 

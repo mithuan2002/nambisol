@@ -10,8 +10,8 @@ const Mission = () => {
               Our Mission
             </h2>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              We're passionate about connecting innovative automation & robotics startups with India's manufacturing sector. 
-              We're building a bridge that brings fresh technology to manufacturers and new opportunities to startups—one partnership at a time.
+              We're passionate about helping B2B SaaS companies break through the noise. 
+              From crafting sharp GTM strategies to building lasting partner ecosystems, we're here to turn great products into market leaders—one launch at a time.
             </p>
           </div>
 
@@ -21,10 +21,10 @@ const Mission = () => {
                 <Globe className="h-10 w-10 text-primary" />
               </div>
               <h3 className="text-xl font-semibold font-heading mb-2 text-foreground">
-                Fresh Energy
+                Strategic Clarity
               </h3>
               <p className="text-muted-foreground">
-                We bring enthusiasm and a hands-on approach to exploring India's manufacturing landscape with you.
+                We bring sharp, data-driven thinking to help you define your market, audience, and winning strategy.
               </p>
             </div>
 
@@ -33,10 +33,10 @@ const Mission = () => {
                 <Users className="h-10 w-10 text-accent" />
               </div>
               <h3 className="text-xl font-semibold font-heading mb-2 text-foreground">
-                Building Bridges
+                Partnership Driven
               </h3>
               <p className="text-muted-foreground">
-                We're actively growing our network and making genuine connections in India's manufacturing community.
+                We actively build and nurture partner networks that create real revenue channels for your SaaS product.
               </p>
             </div>
 
@@ -45,10 +45,10 @@ const Mission = () => {
                 <Rocket className="h-10 w-10 text-primary" />
               </div>
               <h3 className="text-xl font-semibold font-heading mb-2 text-foreground">
-                Startup Spirit
+                Founder Mindset
               </h3>
               <p className="text-muted-foreground">
-                As a young company ourselves, we understand the challenges startups face and we're here to grow together.
+                As builders ourselves, we understand the SaaS journey and bring hands-on energy to every engagement.
               </p>
             </div>
           </div>
