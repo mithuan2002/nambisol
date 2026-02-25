@@ -20,6 +20,9 @@ const Clients = () => {
     <section className="py-24 px-6 bg-muted/30">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
+          <p className="text-sm font-semibold tracking-widest uppercase text-primary mb-3">
+            Recognized Channel Partners of Budibase & Build.ai
+          </p>
           <h2 className="text-4xl font-bold mb-4 font-heading">Our Clients & Partners</h2>
           <p className="text-muted-foreground text-lg">
             Building relationships with leading manufacturers and industrial associations
