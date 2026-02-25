@@ -1,5 +1,14 @@
 import { Building2, Users } from "lucide-react";
 import { Card, CardContent } from "./ui/card";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "./ui/carousel";
+import budibaseLogo from "@/assets/budibase-logo.png";
+import buildaiLogo from "@/assets/buildai-logo.png";
 
 const clients = [
   "Suguna Pumps and Motors",
@@ -19,18 +28,27 @@ const Clients = () => {
   return (
     <section className="py-24 px-6 bg-muted/30">
       <div className="container mx-auto max-w-6xl">
+        {/* Channel Partner Highlight */}
         <div className="text-center mb-16">
-          <p className="text-sm font-semibold tracking-widest uppercase text-primary mb-3">
-            Recognized Channel Partners of Budibase & Build.ai
+          <p className="text-sm font-semibold tracking-widest uppercase text-primary mb-4">
+            Official Channel Partner
           </p>
-          <h2 className="text-4xl font-bold mb-4 font-heading">Our Clients & Partners</h2>
-          <p className="text-muted-foreground text-lg">
-            Building relationships with leading manufacturers and industrial associations
-          </p>
+          <h2 className="text-3xl md:text-4xl font-bold mb-8 font-heading">
+            Nambi Solutions is the recognized channel partner of
+          </h2>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-10 md:gap-16">
+            <div className="bg-background rounded-2xl shadow-lg p-8 flex items-center justify-center min-w-[200px]">
+              <img src={budibaseLogo} alt="Budibase logo" className="h-12 md:h-16 object-contain" />
+            </div>
+            <div className="bg-background rounded-2xl shadow-lg p-8 flex items-center justify-center min-w-[200px]">
+              <img src={buildaiLogo} alt="Build.ai logo" className="h-12 md:h-16 object-contain" />
+            </div>
+          </div>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 mb-12">
-          {/* Clients Section */}
+        {/* Clients & Partners Carousel + Associations */}
+        <div className="grid md:grid-cols-2 gap-8">
+          {/* Clients Carousel */}
           <Card className="border-2 hover:border-primary/50 transition-all duration-300">
             <CardContent className="p-8">
               <div className="flex items-center gap-3 mb-6">
@@ -39,17 +57,22 @@ const Clients = () => {
                 </div>
                 <h3 className="text-2xl font-semibold font-heading">Trusted Clients</h3>
               </div>
-              <ul className="space-y-3">
-                {clients.map((client, index) => (
-                  <li
-                    key={index}
-                    className="flex items-center gap-3 text-foreground/90 hover:text-primary transition-colors"
-                  >
-                    <div className="w-2 h-2 bg-primary rounded-full" />
-                    {client}
-                  </li>
-                ))}
-              </ul>
+              <Carousel opts={{ loop: true }} className="w-full">
+                <CarouselContent>
+                  {clients.map((client, index) => (
+                    <CarouselItem key={index}>
+                      <div className="flex items-center justify-center h-24 text-lg font-medium text-foreground/90">
+                        <div className="flex items-center gap-3">
+                          <div className="w-2 h-2 bg-primary rounded-full shrink-0" />
+                          {client}
+                        </div>
+                      </div>
+                    </CarouselItem>
+                  ))}
+                </CarouselContent>
+                <CarouselPrevious className="-left-4" />
+                <CarouselNext className="-right-4" />
+              </Carousel>
             </CardContent>
           </Card>
 
